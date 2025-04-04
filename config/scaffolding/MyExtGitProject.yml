@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/sagmaak
   gitUsername: sagmaak
   gitBranch: main
+services:
+- serviceName: project.myextgit.integrations:EdgeFS1
+  packages:
+  - name: MyExtGitProject
+    version: "1.0"
+- serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
