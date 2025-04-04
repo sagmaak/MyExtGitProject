@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: MyExtGitProject
+  gitServerName: Git
+  gitUrl: https://github.com/sagmaak
+  gitUsername: sagmaak
+  gitBranch: main
