@@ -7,6 +7,11 @@ packages:
   gitUrl: https://github.com/sagmaak
   gitUsername: sagmaak
   gitBranch: main
+- name: GitDemo
+  gitServerName: Git
+  gitUrl: https://github.com/sagmaak
+  gitUsername: sagmaak
+  gitBranch: main
 services:
 - serviceName: project.myextgit.integrations:EdgeFS1
   packages:
