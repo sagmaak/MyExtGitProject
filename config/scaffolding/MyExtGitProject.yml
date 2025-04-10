@@ -14,6 +14,12 @@ packages:
   gitUsername: sagmaak
   gitBranch: main
 services:
+- serviceName: project.myextgit.documenttypes:SimpleOrder
+  packages:
+  - name: MyExtGitProject
+    version: "1.0"
+  - name: GitDemo
+    version: "1.0"
 - serviceName: project.myextgit.integrations:EdgeFS1
   packages:
   - name: MyExtGitProject
@@ -34,3 +40,9 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2043
+- serviceName: project.myextgit.integrations:shipOrder
+  packages:
+  - name: MyExtGitProject
+    version: "1.0"
+  - name: GitDemo
+    version: "1.0"
