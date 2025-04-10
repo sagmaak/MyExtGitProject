@@ -8,6 +8,7 @@ packages:
   gitUsername: sagmaak
   gitBranch: main
 - name: GitDemo
+  version: "1.0"
   gitServerName: Git
   gitUrl: https://github.com/sagmaak
   gitUsername: sagmaak
@@ -17,7 +18,19 @@ services:
   packages:
   - name: MyExtGitProject
     version: "1.0"
+  - name: GitDemo
+    version: "1.0"
 - serviceName: pub.date:currentNanoTime
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
+- serviceName: project.myextgit.integrations:addNums
+  packages:
+  - name: MyExtGitProject
+    version: "1.0"
+  - name: GitDemo
+    version: "1.0"
+- serviceName: pub.math:addInts
   packages:
   - name: WmPublic
     version: 11.1.0.0.2043
