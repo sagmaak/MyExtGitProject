@@ -24,13 +24,3 @@ services:
   packages:
   - name: WmPublic
     version: 11.1.0.0.2043
-- serviceName: project.myextgit.integrations:addNums
-  packages:
-  - name: MyExtGitProject
-    version: "1.0"
-  - name: GitDemo
-    version: "1.0"
-- serviceName: pub.math:addInts
-  packages:
-  - name: WmPublic
-    version: 11.1.0.0.2043
